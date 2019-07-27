@@ -1,0 +1,72 @@
+body{
+    background: white ;
+    margin: 0px;
+}
+header{  
+    text-align: center;
+    font-family: Trattatello, fantasy;
+    font-size: 50px;
+    background:RGB(30,60,80);
+    /* border:solid 5px black; */
+    border-bottom: solid 2px black;
+
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.Anzib{
+    color: white;
+    text-align: center;
+    width: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-top: 0px;
+}
+.topnav {
+    background-color: yellow;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+.topnav > a{
+    text-decoration: none;
+    color:RGB(30,60,80);
+}
+#myimage1{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text{
+   background-color:RGB(0,0,0);
+    border: 3px solid white;
+    border-style: solid;
+    border-radius: 13px;
+    text-align: center;
+    color: white; 
+    margin-top: 10px
+    
+}
+.watch_description{
+    text-align: justify;
+    margin-right:5px;
+} 
+
+#classic {
+ float: left;
+ margin-top: 10px;
+ width: 100%;
+ max-height: 400px;
+}
+#mechanicalWatch{
+    float: left;
+ margin-top: 10px;
+ width: 100%;
+ max-height: 400px;
+}
+
+
